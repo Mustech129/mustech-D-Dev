@@ -1,0 +1,53 @@
+
+body, html{
+    margin:0; 
+    padding:0; 
+    background-color:#000000 ;
+}
+
+@media (max-width: 60px){
+.header-main-nav ul li{
+flex-direction: column;
+    
+}  
+}
+
+
+a{
+    color:black; 
+    cursor: pointer; 
+    flex:1; 
+}
+
+.header-main{
+    width: 100%;
+    height: 80px;
+    display:flex;
+    border-radius-bottom: 100px;
+    justify-content: space-around;
+    background-color: white ;
+}
+
+.header-main-logo img{
+    width: 150px;
+    height: 80px;
+    background-color : blue;
+    align-self:center;
+}
+
+.header-main-nav{
+    width: fit-content; 
+    height: 80px;
+    margin-right: 30px; 
+    align-content:center;
+     
+}
+
+.header-main-nav ul{
+    display:flex;
+    Gap: 30px;  
+}
+
+.header-main-nav ul li a{
+    flex: 1; 
+}

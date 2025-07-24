@@ -1,0 +1,314 @@
+:root{
+    --mustech1-- :#120029;
+    --mustech2-- :#5c0ab4;
+    --mustech3-- :#1f023f;
+}
+
+
+
+@font-face {
+    font-family: mustech;
+    src: url(../font/Oswald/Oswald-VariableFont_wght.ttf)}
+html{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: var(--mustech1--);   
+}
+
+.wrapper-main{
+    width: 90%;
+    min-width: 32rem;
+    max-width: 70rem;
+    Margin: 0 auto;  
+}
+
+h1{
+    font-size: 4.5rem;
+    font-weight: 600;
+    font-family: mustech;
+    line-height: 1.5;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 1.2;
+    font-family: mustech;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 600;
+    font-family:mustech ;
+    line-height: 1.9;
+}
+
+p{
+    font-size: 2rem;
+    line-height: 1.9;
+    font-weight: 500;
+    font-family: mustech;
+}
+
+a{
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 560;
+    font-family: mustech;
+
+}
+
+
+/* HEADER*/
+.header-main{ 
+    width: 100%;
+    height: 60px;
+    background-color:#4b0f8c;
+    color: white;
+}
+
+.header-main-flex{
+    display: flex;
+    justify-content : space-between ;
+}
+
+.header-main-logo p{
+    width: fit-content;
+    height: 60px;
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-left: 30px;
+    align-content: center;
+}
+
+.header-main-nav{
+    width: fit-content; 
+    height: 60px;
+    display: flex; 
+    clear: both; 
+    float: right;
+    padding-right: 80px;
+}
+
+.header-main-nav ul{
+    align-items: center;    
+    display: flex ;
+    gap:20px;  
+}
+
+.header-main-nav ul li{
+        transition: all ease-in-out 300ms;
+
+}
+
+.header-main-nav ul li:hover{
+    background-color:#3a056e ;
+    padding:2px 5px;
+    border-radius: 10px;
+}
+
+/*HERO*/
+
+.hero-flex{
+    justify-content:center; 
+    min-width: auto;
+}
+
+.hero-section{
+    width:100%; 
+    background-color: var(--mustech1--);
+    background-image: url(../img/chat.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 0;
+    text-align: center;
+    text-shadow: -1px 1px rgb(244, 195, 195);
+}
+
+.hero-text{   
+    flex-basis: 600px; 
+    line-height: 2;
+    height: fit-content;
+    color: white;
+}
+
+.hero-text h1{
+    font-size: 3rem;  
+}
+
+.hero-text p{   
+    opacity: 0.6;  
+    line-height: 1.7;
+
+}
+
+.link{
+    flex-basis: 100%;
+    font-size: 1.5rem;
+    color: white;
+    transition: all ease-in-out 300ms;
+}
+.link:hover{
+    background-color:#3a056e ;
+                                 
+}
+.hero-text a{
+    padding: 7px 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #7a00ff;
+}
+
+.hero-section p{
+    padding-bottom :30px;
+}
+
+.hero-section h1{
+     padding-bottom:20px;
+     font-weight: 700;
+}
+
+
+.hero-section img{
+    width: 200px; 
+    height: 200px;
+    min-width: 200px;
+    min-height:200px;
+}
+
+
+
+@media (max-width: 600px){
+
+    .wrapper-main{
+    width: 100%;
+    margin: 0 auto;
+    
+    }
+
+
+.header-main{ 
+    width: 100%;
+    height: 60px;
+    background-color:#4b0f8c;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+
+    .header-main-nav{
+    display: none;
+}
+
+
+/* HERO*/
+
+.hero-flex{
+    text-align: center;
+    justify-content:center; 
+}
+
+.hero-section{
+    width:100%; 
+    padding: 30px 0;
+}
+
+
+.link{
+    width: 100%;
+    color: white;
+    transition: all ease-in-out 300ms;
+}
+
+
+
+.hero-section img{
+    display: none;
+}
+
+
+/* SERVICES*/
+.services-flex{
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.services{
+    width:100%;
+    padding: 60px 0;
+    flex-basis: auto;
+    gap:30px;
+    text-align: center;
+}
+
+.services1 img{
+    width:30%;
+}
+
+.services2 img{
+    width: 30% ;
+}
+
+.services3 img{
+    width: 30% ;
+}
+
+.services4 img{
+    width: 30% ;
+}
+}
+
+@media (max-width: 786px) {
+    
+/* HEADER*/
+.header-main{ 
+    width: 100%;
+    height: 60px;
+    background-color:#4b0f8c;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.header-main-logo p{
+    width: fit-content;
+    height: 60px;
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-left: 30px;
+    align-content: center;
+}
+
+.header-main-nav ul{
+    align-items: center;    
+    display: flex ;
+    gap:20px;  
+}
+
+.header-main-nav ul li{
+        transition: all ease-in-out 300ms;
+
+}
+
+.header-main-nav ul li:hover{
+    background-color:#3a056e ;
+    padding:2px 5px;
+    border-radius: 10px;
+}
+}
+
+@media (max-width:400px){
+    .wrapper-main{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
